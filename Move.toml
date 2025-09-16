@@ -1,0 +1,15 @@
+[package]
+name = "donation-tracker"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x6c7af8f8ed4e9db58a48489a6b35d0ddd70a30b8307d5a6fc02107f4da087c06"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
